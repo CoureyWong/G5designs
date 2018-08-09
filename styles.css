@@ -232,10 +232,10 @@ Portfolio
 }
 .imgWrap:hover .image{
   opacity: 0.3;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
-.imgWrap:hover .overlay {
+.imgWrap:hover .overlayimg {
   opacity: 1;
 }
 
@@ -255,6 +255,7 @@ Portfolio
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .text {
@@ -262,9 +263,19 @@ Portfolio
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: bold;
-  text-align: center;
+
 }
 
+.gallery{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.galleryBtns {
+  display:flex;
+  justify-content: center; 
+
+}
 /*******************************
 contact
 *******************************/

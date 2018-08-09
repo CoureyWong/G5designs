@@ -266,14 +266,10 @@ Portfolio
 
 }
 
-.gallery{
-  width:100%;
-  display: flex;
-  justify-content: center;
-}
+
 .galleryBtns {
   display:flex;
-  justify-content: center; 
+  justify-content: center;
 
 }
 /*******************************
@@ -403,5 +399,10 @@ Larger screens
     margin: 100px auto ;
     column-count: 3;
     column-gap: 1em;
+  }
+  .gallery{
+    width:100%;
+    display: flex;
+    justify-content: center;
   }
 }

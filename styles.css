@@ -265,7 +265,9 @@ Portfolio
   font-weight: bold;
 
 }
-
+.gallery {
+  width: 100%;
+}
 
 .galleryBtns {
   display:flex;
